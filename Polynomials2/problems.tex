@@ -1,0 +1,46 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb}
+
+\title{Polynomial Arithmetic and Hensel Lifting}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{enumerate}
+		
+		\item \textbf{(O2) (Hensel's Lemma)}  
+		Let $P \in \mathbb{Z}[x]$. Suppose that $p \mid P(x)$ and $p \nmid P'(x)$, where $P'$ is the derivative of $P$. Prove that:
+		\begin{itemize}
+			\item[(a)] There exists $y \in \mathbb{Z}$ such that $p^2 \mid P(y)$.
+			\item[(b)] For each $n \in \mathbb{N}$, there exists $y \in \mathbb{Z}$ such that $p^n \mid P(y)$.
+		\end{itemize}
+		
+		\item \textbf{(O2)}  
+		Let $Q \in \mathbb{Z}[x]$ be a non-constant polynomial. Show that there exist arbitrarily large primes $p$ such that $p \mid Q(n)$ for some $n \in \mathbb{Z}$.
+		
+		\item \textbf{(O1)}  
+		Let $P \in \mathbb{Z}[x]$ be irreducible. Show that the quantity
+		\[
+		\gcd\big(P(n), P'(n)\big)
+		\]
+		is bounded as $n$ ranges over $\mathbb{Z}$.
+		
+		\item \textbf{(O1)}  
+		Let $P \in \mathbb{Z}[x]$.
+		\begin{itemize}
+			\item[(a)] Prove that if $P$ has a root in $\mathbb{Z}$, then $P$ has a root modulo $p$ for every prime $p$.
+			\item[(b)] Prove that if there exists a prime $p$ such that $P$ has no root modulo $p$, then $P$ has no root in $\mathbb{Z}$.
+		\end{itemize}
+		
+		\item \textbf{(O3)}  
+		Let $P \in \mathbb{Z}[x]$ be non-constant. Does there necessarily exist a prime $p$ such that the sequence
+		\[
+		v_p(P(1)),\ v_p(P(2)),\ v_p(P(3)),\dots
+		\]
+		is unbounded?
+		
+	\end{enumerate}
+	
+\end{document}
