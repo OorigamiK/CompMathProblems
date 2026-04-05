@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+
+\title{Periodicity}
+\author{}
+\date{}
+
+\begin{document}
+	
+	\maketitle
+	
+	\begin{enumerate}
+		
+		\item (P1) (O1) Let $P \in \mathbb{Z}[x]$ and $a_1 = 1$, with $a_{n+1} = P(a_n)$. Define $b_n \equiv a_n \pmod{N}$. Show that $b_n$ is eventually periodic.
+		
+		\item (P2) (O2) Let $a_1 = 1$ and $a_{n+1} = a_n^2 + a_n - 1$. Show that
+		\[
+		\gcd(n, a_n) = 1
+		\]
+		for all $n$.
+		
+		\item (P3) (O1) Let $p(n)$ be the greatest prime divisor of $n$. Define the sequence by $a_1 \in \mathbb{N}$ and
+		\[
+		a_{n+1} = p(a_n) + 1.
+		\]
+		Show that $a_n$ is eventually periodic and determine the length of the period.
+		
+		\item (P4) (O2) Let
+		\[
+		\operatorname{rad}(n) = \prod_{p \mid n} p.
+		\]
+		Show that the sequence defined by $a_1 \in \mathbb{N}$ and
+		\[
+		a_{n+1} = \operatorname{rad}(a_n) + 1
+		\]
+		is eventually periodic and determine the length of the period.
+		
+		\item (P5) (O3) Let $P \in \mathbb{Z}[x]$ and $a_1 \in \mathbb{Z}$, with
+		\[
+		a_{n+1} = P(a_n).
+		\]
+		Suppose that the sequence $(a_n)$ is periodic. Show that the length of the period $L$ satisfies $L \le 2$.
+		
+	\end{enumerate}
+	
+\end{document}
